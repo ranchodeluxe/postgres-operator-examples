@@ -21,7 +21,7 @@ postgresVersion: 16
 # PostGIS. This version number needs to be available as one of the
 # "RELATED_IMAGE_POSTGRES_..." images as part of the PGO installation if you
 # want to deploy the image without setting the "postgres" image variable.
-# postGISVersion: 3.1
+#postGISVersion: 3.4
 
 # NOTE: pgBackRest is enabled by default. It must be set in
 # "RELATED_IMAGE_PGBACKREST" on the PGO deployment, otherwise you will need to
@@ -32,7 +32,7 @@ postgresVersion: 16
 # "pgBouncerConfig". Setting "pgBouncerConfig" will override the value of
 # pgBouncerReplicas. The "RELATED_IMAGE_PGBOUNCER" in the PGO deployment must be
 # set if you want to enable this without explicitly setting "pgBouncer".
-# pgBouncerReplicas: 1
+#pgBouncerReplicas: 1
 
 # monitoring enables the ability to monitor the Postgres cluster through a
 # metrics exporter that can be scraped by Prometheus. This defaults to the value
